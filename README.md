@@ -28,4 +28,4 @@ git clone https://github.com/zad4y-fivem-scripts/esx_policejob [esx]/esx_policej
 ### License
 
 - GNU License GPL V3.0
-- Read the license in this url <https://github.com/zad4y-fivem-scripts/esx_policejob/LICENSE>
+- Read the license in this url <https://github.com/zad4y-fivem-scripts/esx_policejob/blob/main/LICENSE>
