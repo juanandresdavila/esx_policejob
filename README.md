@@ -15,7 +15,7 @@ git clone https://github.com/zad4y-fivem-scripts/esx_policejob [esx]/esx_policej
 
 #### Manualy
 
-- Download <https://github.com/zad4y-fivem-scripts/esx_policejob/archive/master.zip>
+- Download <https://codeload.github.com/zad4y-fivem-scripts/esx_policejob/zip/main>
 - Put it in the `esx` repository
 
 ### Instalation
