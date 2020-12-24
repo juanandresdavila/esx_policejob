@@ -101,7 +101,7 @@ Config.AuthorizedWeapons = {
     sergeant = { -- Oficial II
         {weapon = 'WEAPON_CARBINERIFLE', price = 7000},
         {weapon = 'WEAPON_SPECIALCARBINE', price = 6500},
-        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000}
+        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000},
         {weapon = 'WEAPON_PUMPSHOTGUN',  price = 5000},
         {weapon = 'WEAPON_ASSAULTSMG', price = 4000},
         {weapon = 'WEAPON_SMG', price = 3000},
@@ -128,7 +128,7 @@ Config.AuthorizedWeapons = {
         {weapon = 'WEAPON_SNIPERRIFLE', price = 10000},
         {weapon = 'WEAPON_CARBINERIFLE', price = 7000},
         {weapon = 'WEAPON_SPECIALCARBINE', price = 6500},
-        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000}
+        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000},
         {weapon = 'WEAPON_PUMPSHOTGUN',  price = 5000},
         {weapon = 'WEAPON_ASSAULTSMG', price = 4000},
         {weapon = 'WEAPON_SMG', price = 3000},
@@ -142,7 +142,8 @@ Config.AuthorizedWeapons = {
         {weapon = 'WEAPON_FLASHLIGHT', price = 0}
     },
     lieutenant = { -- Detective
-
+        {weapon = 'WEAPON_SNIPERRIFLE', price = 5000},
+        {weapon = 'WEAPON_SAWNOFFSHOTGUN', price = 4000},
         {weapon = 'WEAPON_FLAREGUN', price = 3000},
         {weapon = 'WEAPON_APPISTOL', price = 2000},
         {weapon = 'WEAPON_COMBATPISTOL', price = 1000},
@@ -153,37 +154,53 @@ Config.AuthorizedWeapons = {
         {weapon = 'WEAPON_FLASHLIGHT', price = 0}
     },
     chef = { -- Comisario
+        {weapon = 'WEAPON_HEAVYRIFLE', price = 25000},
+        {weapon = 'WEAPON_COMBATMG', price = 20000},
+        {weapon = 'WEAPON_MG', price = 15000},
         {weapon = 'WEAPON_SNIPERRIFLE', price = 10000},
         {weapon = 'WEAPON_CARBINERIFLE', price = 7000},
         {weapon = 'WEAPON_SPECIALCARBINE', price = 6500},
-        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000}
+        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000},
         {weapon = 'WEAPON_PUMPSHOTGUN',  price = 5000},
+        {weapon = 'WEAPON_GUSENBERG', price = 5000},
         {weapon = 'WEAPON_ASSAULTSMG', price = 4000},
+        {weapon = 'WEAPON_COMBATPDW', price = 4000},
         {weapon = 'WEAPON_SMG', price = 3000},
         {weapon = 'WEAPON_FLAREGUN', price = 3000},
         {weapon = 'WEAPON_APPISTOL', price = 2000},
         {weapon = 'WEAPON_COMBATPISTOL', price = 1000},
+        {weapon = 'WEAPON_MARKSMANPISTOL', price = 1000},
         {weapon = 'WEAPON_BZGAS', price = 100},
         {weapon = 'WEAPON_SMOKEGRENADE', price = 100},
         {weapon = 'WEAPON_STUNGUN', price = 0},
+        {weapon = 'WEAPON_WRENCH', price = 0},
+        {weapon = 'WEAPON_DAGGER', price = 0},
         {weapon = 'WEAPON_NIGHTSTICK', price = 0},
         {weapon = 'WEAPON_FLASHLIGHT', price = 0}
     },
 
     boss = { -- Super Intendente
+        {weapon = 'WEAPON_HEAVYRIFLE', price = 25000},
+        {weapon = 'WEAPON_COMBATMG', price = 20000},
+        {weapon = 'WEAPON_MG', price = 15000},
         {weapon = 'WEAPON_SNIPERRIFLE', price = 10000},
         {weapon = 'WEAPON_CARBINERIFLE', price = 7000},
         {weapon = 'WEAPON_SPECIALCARBINE', price = 6500},
-        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000}
+        {weapon = 'WEAPON_ASSAULTSHOTGUN', price = 6000},
         {weapon = 'WEAPON_PUMPSHOTGUN',  price = 5000},
+        {weapon = 'WEAPON_GUSENBERG', price = 5000},
         {weapon = 'WEAPON_ASSAULTSMG', price = 4000},
+        {weapon = 'WEAPON_COMBATPDW', price = 4000},
         {weapon = 'WEAPON_SMG', price = 3000},
         {weapon = 'WEAPON_FLAREGUN', price = 3000},
         {weapon = 'WEAPON_APPISTOL', price = 2000},
         {weapon = 'WEAPON_COMBATPISTOL', price = 1000},
+        {weapon = 'WEAPON_MARKSMANPISTOL', price = 1000},
         {weapon = 'WEAPON_BZGAS', price = 100},
         {weapon = 'WEAPON_SMOKEGRENADE', price = 100},
         {weapon = 'WEAPON_STUNGUN', price = 0},
+        {weapon = 'WEAPON_WRENCH', price = 0},
+        {weapon = 'WEAPON_DAGGER', price = 0},
         {weapon = 'WEAPON_NIGHTSTICK', price = 0},
         {weapon = 'WEAPON_FLASHLIGHT', price = 0}
     }
@@ -199,53 +216,85 @@ Config.AuthorizedHelicopters = {
     },
 
     sergeant = {
-
+        {model = 'polmav', props = {modLivery = 0}, price = 50000}
     },
     sergeant_chief = {
-
+        { model = 'sheriffmav', label = 'Sheriff Maverick', price = 50000 }
     },
     intendent = {
-
+        {model = 'polmav', props = {modLivery = 0}, price = 40000}
     },
     lieutenant = {
-
+        {model = 'polmav', props = {modLivery = 0}, price = 30000}
     },
     chef = {
-
+        {model = 'polmav', props = {modLivery = 0}, price = 20000}
     },
 
     boss = {
-
+        {model = 'polmav', props = {modLivery = 0}, price = 10000}
     }
 }
 
 Config.AuthorizedVehicles = {
     recruit = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
     },
 
     officer = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
     },
 
     sergeant = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
     },
     sergeant_chief = {
-
+        { model = 'bcso1', label = 'Sheriff Crucero 2', price = 5000 },
+		--{ model = 'Sheriffvan', label = 'Sheriff Van', price = 5000 },
+		{ model = 'bcso6', label = 'Sheriff Dodge', price = 5000 },
+		{ model = 'police4', label = 'Sheriff Mercantilizado', price = 5000 },
+		{ model = 'pranger', label = 'Sheriff SUV', price = 5000 },
+		{ model = 'policeb', label = 'Sheriff Moto', price = 5000 },
+		{ model = 'riot', label = 'Sheriff RIOT', price = 5000 },
+		{ model = 'bcso4', label = 'Sheriff SUV 2', price = 5000 },
+		{ model = 'bcso5', label = 'Sheriff SUV de Sheriff', price = 5000 },
+		{ model = 'bcso3', label = 'Sheriff Dodge de Sheriff', price = 5000 },
+		{ model = 'pbus', label = 'Bus Penitenciario', price = 5000 }
     },
     intendent = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
+        {model = 'riot', price = 2500},
+		{model = 'fbi2', price = 2500}
     },
     lieutenant = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
+        {model = 'riot', price = 2500},
+		{model = 'fbi2', price = 2500}
     },
     chef = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
+        {model = 'riot', price = 2500},
+		{model = 'fbi2', price = 2500}
     },
 
     boss = {
-
+        {model = 'police3', price = 2500},
+        {model = 'policet', price = 2500},
+		{model = 'policeb', price = 2500},
+        {model = 'riot', price = 2500},
+		{model = 'fbi2', price = 2500}
     }
 }
 
@@ -466,4 +515,54 @@ Config.Uniforms = {
             ['chain_1'] = 95, ['chain_2'] = 0
 		}
 	}
+}
+
+Config.TeleportZones = {
+    EnterLocaux = {
+        Pos       = { x = -448.4055, y = 6007.984, z = 30.7163 },
+        Size      = { x = 1.2, y = 1.2, z = 0.1 },
+        Color     = { r = 128, g = 0, b = 128 },
+        Marker    = 1,
+        Blip      = false,
+        Name      = "Policia : Entrada",
+        Type      = "teleport",
+        Hint      = "Presione ~INPUT_PICKUP~ para entrar.",
+        Teleport  = { x = 1854.04, y = 3716.221, z = 1.073157 }
+    },
+
+        ExitLocaux = {
+        Pos       = { x = 1854.04, y = 3716.221, z = 0.073157 },
+        Size      = { x = 1.2, y = 1.2, z = 0.1 },
+        Color     = { r = 128, g = 0, b = 128 },
+        Marker    = 1,
+        Blip      = false,
+        Name      = "Sheriff : Salida",
+        Type      = "teleport",
+        Hint      = "Presione ~INPUT_PICKUP~ para salir.",
+        Teleport  = { x = -448.4055, y = 6007.984, z = 31.7163 },
+    },
+    
+    ExitBuilding = {
+        Pos       = { x = -442.6956, y = 6011.622, z = 30.7163 },
+        Size      = { x = 1.2, y = 1.2, z = 0.1 },
+        Color     = { r = 0, g = 128, b = 0 },
+        Marker    = 1,
+        Blip      = false,
+        Name      = "Sheriff : Salida",
+        Type      = "teleport",
+        Hint      = "Presione ~INPUT_PICKUP~ para salir.",
+        Teleport  = { x = -447.1138, y = 6001.522, z = 31.68349 }
+    },
+
+        EnterBuilding = {
+        Pos       = { x = -447.1138, y = 6001.522, z = 30.68349 },
+        Size      = { x = 1.2, y = 1.2, z = 0.1 },
+        Color     = { r = 0, g = 128, b = 0 },
+        Marker    = 1,
+        Blip      = false,
+        Name      = "Sheriff : Entrada",
+        Type      = "teleport",
+        Hint      = "Presione ~INPUT_PICKUP~ para entrar",
+        Teleport  = { x = -442.6956, y = 6011.622, z = 31.7163 },
+    },
 }
