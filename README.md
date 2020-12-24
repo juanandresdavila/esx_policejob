@@ -1,8 +1,8 @@
-# ESX_Detective
+# ESX_POLICEJOB
 
 ## Description
 
-This is a basic ESX_Detective JOB.
+This is my custom police job.
 
 ### Download & Instalation
 
@@ -10,22 +10,22 @@ This is a basic ESX_Detective JOB.
 
 ```sh
 cd resources
-git clone https://github.com/ZAD4YTV/esx_detective [esx]/esx_detective
+git clone https://github.com/zad4y-fivem-scripts/esx_policejob [esx]/esx_policejob
 ```
 
 #### Manualy
 
-- Download <https://github.com/ZAD4YTV/esx_detective/archive/master.zip>
+- Download <https://github.com/zad4y-fivem-scripts/esx_policejob/archive/master.zip>
 - Put it in the `esx` repository
 
 ### Instalation
 
-- Add `start esx_detective` to your server.cfg
-- Add the `esx_detective.sql` to your database
+- Add `start esx_policejob` to your server.cfg
+- Add the `esx_policejob.sql` to your database
 
 ## Legal
 
 ### License
 
 - GNU License GPL V3.0
-- Read the license in this url <https://github.com/ZAD4YTV/esx_detective/LICENSE>
+- Read the license in this url <https://github.com/zad4y-fivem-scripts/esx_policejob/LICENSE>
