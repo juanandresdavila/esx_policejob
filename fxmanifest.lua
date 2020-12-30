@@ -2,7 +2,7 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'ESX Detective JOB'
+description 'ESX Police JOB'
 
 version '0.1'
 
