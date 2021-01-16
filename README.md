@@ -10,12 +10,12 @@ This is my custom police job.
 
 ```sh
 cd resources
-git clone https://github.com/zad4y-fivem-scripts/esx_policejob [esx]/esx_policejob
+git clone https://github.com/ZAD4YTV/esx_policejob [esx]/esx_policejob
 ```
 
 #### Manualy
 
-- Download <https://codeload.github.com/zad4y-fivem-scripts/esx_policejob/zip/main>
+- Download <https://codeload.github.com/ZAD4YTV/esx_policejob/zip/main>
 - Put it in the `esx` repository
 
 ### Instalation
@@ -28,4 +28,4 @@ git clone https://github.com/zad4y-fivem-scripts/esx_policejob [esx]/esx_policej
 ### License
 
 - GNU License GPL V3.0
-- Read the license in this url <https://github.com/zad4y-fivem-scripts/esx_policejob/blob/main/LICENSE>
+- Read the license in this url <https://github.com/ZAD4YTV/esx_policejob/blob/main/LICENSE>
