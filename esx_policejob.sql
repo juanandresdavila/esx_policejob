@@ -10,6 +10,7 @@ INSERT INTO `datastore` (name, label, shared) VALUES
 
 INSERT INTO `jobs` (name, label, whitelisted) VALUES
     ('police', 'Policia', 1)
+;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
     ('police',0,'recruit','Alumno', 20,'{}','{}'),
