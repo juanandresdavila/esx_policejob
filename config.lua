@@ -77,7 +77,7 @@ Config.PoliceStations               = {
 			vector3(448.4, -973.2, 30.6)
 		}
     }
-},
+}
 
 Config.AuthorizedWeapons = {
     recruit = { -- Alumno
