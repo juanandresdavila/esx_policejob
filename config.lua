@@ -89,7 +89,7 @@ Config.AuthorizedWeapons = {
     },
 
     officer = { -- Oficial
-        {weapon = 'WEAPON_PUMPSHOTGUN', = price = 5000},
+        {weapon = 'WEAPON_PUMPSHOTGUN', price = 5000},
         {weapon = 'WEAPON_SMG', price = 3000},
         {weapon = 'WEAPON_COMBATPISTOL', price = 1000},
         {weapon = 'WEAPON_BZGAS', price = 100},
