@@ -29,3 +29,7 @@ git clone https://github.com/juanandresdavila/esx_policejob [esx]/esx_policejob
 
 - GNU License GPL V3.0
 - Read the license in this url <https://github.com/juanandresdavila/esx_policejob/blob/main/LICENSE>
+
+## Disclaimer
+
+This proyect is archived, as I stopped coding in Lua. 
